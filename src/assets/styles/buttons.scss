@@ -1,0 +1,32 @@
+.add-btn {
+  display: inline-block;
+  padding: 18px 32px;
+  border-radius: 5px;
+  background-color: $color-brown;
+  color: #fff;
+  font-size: 22px;
+  transition: $tr-bg-color, $tr-color;
+
+  &:hover {
+    background-color: transparent;
+    color: $color-brown;  
+    outline: 1px solid $color-brown;
+  }
+}
+
+.cancel-btn {
+  display: inline-block;
+  padding: 18px 32px;
+  border-radius: 5px;
+  outline: 1px solid $color-brown;
+  background-color: #fff;
+  color: $color-brown;
+  font-size: 22px;
+  transition: $tr-bg-color, $tr-color;
+
+  &:hover {
+    background-color: $color-brown;
+    color: #fff;
+    outline-color: transparent;
+  }
+}

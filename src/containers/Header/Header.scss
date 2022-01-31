@@ -1,0 +1,41 @@
+@import "./../../assets/styles/index.scss";
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.448);
+  padding: 60px 0;
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .list {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    margin-left: auto;
+
+    li {
+
+      &:hover a {
+        color: $color-brown;
+      }
+    }
+
+    li:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+
+  .item {
+    
+  }
+  .btn {
+    
+  }
+}

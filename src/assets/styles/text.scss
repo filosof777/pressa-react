@@ -1,0 +1,35 @@
+.title {
+  font-family: $font-infra;
+  font-size: 52px;
+  color: $color-black;
+  font-weight: 700;
+}
+
+.sub-title {
+  font-family: $font-infra;
+  font-size: 24px;
+  color: $color-black;
+  font-weight: 600;
+}
+
+.text {
+  font-family: $font-din-pro;
+  font-size: 22px;
+  color: $color-black;
+  font-weight: 500;
+}
+
+.sub-text {
+  font-family: $font-infra;
+  font-size: 16px;
+  color: $color-black;
+  font-weight: 500;
+}
+
+.text-italic {
+  font-family: $font-infra;
+  font-size: 16px;
+  font-style: italic;
+  color: $color-black;
+  font-weight: 500;
+}
